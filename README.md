@@ -1,7 +1,17 @@
 Python-Remote-Sensing
 =====================
 
-Some scripts that I am using for my dissertation.
+Contact information
+-------------------
+For any suggestion, complaint or just for help, don't hesitate on contacting us
+
+ Denis Araujo Mariano
+ denis.mariano@usp.br
+ 
+ William Foschiera
+ wfoschiera@gmail.com
+
+You can contact us in English, Portuguese of even in Spanish.
 
 First things first
 ---------------------------
