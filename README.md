@@ -1,6 +1,8 @@
 Python-Remote-Sensing
 =====================
 
+Sorry, we are facing some issues with EVI and NDVI calculation, however, as soon as we got over this the script will be updated. The TCI script runs like a dream, no issues!
+
 Contact information
 -------------------
 For any suggestion, complaint or just for help, don't hesitate on contacting us
