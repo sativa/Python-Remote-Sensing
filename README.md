@@ -18,9 +18,9 @@ First things first
 Up till now, the scripts we created in python need some packages installed for working fine. If you use Linux systems, all this can be done easily, for example in Ubuntu:
 Go to the terminal and then:
 
-sudo apt-get install python
-sudo apt-get install python-numpy
-sudo apt-get install python-gdal
+    sudo apt-get install python
+    sudo apt-get install python-numpy
+    sudo apt-get install python-gdal
 
 However, if you're using Windows, one easy way for getting over these is by installling QGIS. 
 The QGIS will install all those packages on your system.
