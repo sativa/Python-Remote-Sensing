@@ -126,27 +126,7 @@ def EVI(path,red,nir,blue,out):
         iv_saida.GetRasterBand(1).WriteArray(EVI) 
     return iv_saida
 
-#NDWI - Gao, 1997: ndwi = (nir1 - nir2) / (nir1 + nir2)
-'''
-def NDWI(path,nir,nir2,out):
- 
-    datum = gdal.Open(path + '/NIR2/' + nir2[0])
-    row = datum.RasterYSize
-    col = datum.RasterXSize
-    shape = (row,col)
-    driver = gdal.GetDriverByName('GTiff')
-    geo = datum.GetGeoTransform()  # get the datum
-    proj = datum.GetProjection()   # get the projection       
-    for i in range(len(nir2)):
-        NIR2actual = gdal.Open(path + '/NIR2/' + nir2[i]).ReadAsArray()
-        NIRactual = gdal.Open(path + '/NIR/' + nir[i]).ReadAsArray()
-        NDWI = (NIRactual - NIR2actual)/(NIRactual + NIR2actual)
-        ndwi_saida = driver.Create(path + '/NDWI/'+ 'NDWI_' + out[i], shape[1], shape[0], 1, gdal.GDT_Float32)
-        ndwi_saida.SetGeoTransform(geo) # set the datum
-        ndwi_saida.SetProjection(proj)  # set the projection
-        ndwi_saida.GetRasterBand(1).WriteArray(NDWI) 
-    return ndwi_saida
-''' 
+
  
 #The next line must be changed for your root folder for the RED and NIR
 #files, remember, it's case sensitive
