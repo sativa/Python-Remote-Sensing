@@ -136,5 +136,5 @@ EVI('/media/denis/DATA/Drought_tests3/',red,nir,blue,out)
 
 
 
-print 'A operação de cálculo dos índices levou ', time.time() - startTime, 'segundos'
-print 'Foram geradas', len(red), 'imagens para cada índice'
+print 'The operation took ', time.time() - startTime, 'seconds.'
+print 'A total of', len(red), 'images were created for each index.'
